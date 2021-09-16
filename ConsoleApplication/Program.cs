@@ -17,13 +17,10 @@ namespace ConsoleApplication
             Console.WriteLine($"I am from {location}");
 
             DateTime today = DateTime.Now;
-
             Console.WriteLine($"Today's date is: {today.ToShortDateString()}");
 
             DateTime Christmas = new DateTime(2021, 12, 25);
-
             var untilChristmas = (Christmas.DayOfYear - today.DayOfYear);
-
             Console.WriteLine($"There are {untilChristmas} days until Christmas");
 
             double width, height, woodLength, glassArea;
